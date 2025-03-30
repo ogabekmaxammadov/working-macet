@@ -1,0 +1,76 @@
+.about-section {
+	position: relative;
+	top: 15rem;
+}
+
+.about-s {
+	width: 100%;
+	display: flex;
+}
+
+.about-s .about-img {
+	width: 50%;
+	position: relative;
+	left: 5%;
+}
+
+.about-img img {
+	width: 100%;
+}
+
+.about-s .about-inform {
+	width: 90%;
+	padding-left: 20%;
+}
+
+.about-inform h2 {
+	font-family: 'Crimson Text';
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.about-inform p {
+	font-family: 'Poppins';
+	font-size: 15px;
+	font-weight: 200;
+	width: 80%;
+}
+
+.btn2 {
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+@media (max-width: 767px) {
+	.about-section {
+		position: relative;
+		top: 7rem;
+	}
+	.about-s {
+		width: 100%;
+		display: block;
+	}
+
+	.about-s .about-img {
+		width: 90%;
+		position: relative;
+		left: 5%;
+		display: block;
+	}
+
+	.about-s .about-inform {
+		width: 110%;
+		padding-left: 5%;
+	}
+
+	.about-inform h2 {
+		font-family: 'Crimson Text';
+		font-size: 24px;
+	}
+	.btn2 {
+		position: relative;
+		margin-left: -20%;
+		margin-top: -3rem;
+	}
+}

@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Gidole&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header-section {
+	width: 100%;
+	height: auto;
+	background-color: #74c69d;
+	box-sizing: border-box;
+}
+.container {
+	width: 90%;
+	left: 5%;
+	position: relative;
+}
+header {
+	width: 90%;
+	margin-left: 5%;
+	padding-top: 3rem;
+	height: 20%;
+	display: flex;
+}
+.menuIcon {
+	display: none;
+}
+
+header .logo {
+	width: 200px;
+	height: 50px;
+}
+
+.logo img {
+	width: 100%;
+	height: 100%;
+}
+
+header nav {
+	width: 50%;
+	position: relative;
+	left: 30%;
+	margin-top: -1rem;
+}
+
+header nav ul {
+	width: 100%;
+	display: flex;
+	list-style: none;
+}
+
+header nav ul li {
+	margin: 0.1rem;
+
+	height: 2rem;
+	border-radius: 4px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-left: 2rem;
+	padding-right: -2rem;
+	transition: 1s;
+}
+
+header nav ul li:hover {
+	border: 1px solid #fff;
+}
+
+.header nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Work Sans';
+	position: relative;
+	margin-right: 3rem;
+	text-align: center;
+}
+
+.header-information {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 3rem;
+	height: 20%;
+	padding-bottom: 2rem;
+	display: flex;
+}
+
+.inform {
+	width: 50%;
+}
+
+.inform h2 {
+	color: #fff;
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/worksans/v19/QGYsz_wNahGAdqQ43Rh_fKDp.woff2)
+		format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+		U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+		U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.inform h1 {
+	color: #fff;
+	font-family: 'Crimson Text';
+	font-size: 40px;
+}
+
+.inform p {
+	width: 60%;
+	color: #fff;
+	text-align: justify;
+	font-family: 'Poppins';
+	font-size: 15px;
+	font-weight: 200;
+}
+
+.btn {
+	width: 11rem;
+	height: 3rem;
+	border: none;
+	border-radius: 8px;
+	font-family: 'Work Sans';
+	font-size: 20px;
+	cursor: pointer;
+	margin-top: 2rem;
+	transition: 1s;
+}
+
+.btn:hover {
+	background-color: rgb(99, 97, 97);
+	color: #fff;
+}
+
+@media (max-width: 767px) {
+	header {
+		display: block;
+		padding-top: 1.5rem;
+	}
+	nav {
+		display: none;
+	}
+	.menuIcon {
+		display: block;
+		color: #fff;
+		font-size: 35px;
+		position: relative;
+		left: 90%;
+		top: -3rem;
+	}
+	.logo {
+		width: 100px;
+	}
+	.logo img {
+		width: 150px;
+		height: 40px;
+	}
+
+	.header-information {
+		width: 100%;
+		display: block;
+	}
+
+	.inform {
+		width: 100%;
+		display: block;
+		position: relative;
+		top: 13rem;
+	}
+
+	.inform p {
+		width: 90%;
+	}
+
+	.inform h2 {
+		font-size: 25px;
+	}
+
+	.inform h1 {
+		font-size: 30px;
+	}
+	.img {
+		width: 100%;
+		left: -5%;
+		display: block;
+		position: relative;
+		top: -25rem;
+	}
+
+	.img img {
+		width: 100%;
+	}
+}

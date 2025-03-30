@@ -1,0 +1,98 @@
+.partners-section {
+	width: 100%;
+	height: auto;
+	margin-top: 6rem;
+}
+
+.part-inform {
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+.part-inform h3 {
+	color: #74c69d;
+	font-size: 18px;
+	font-family: 'Poppins';
+	font-size: 300;
+}
+
+.part-inform h2 {
+	font-family: 'Crimson Text';
+	font-size: 40px;
+}
+
+.part-inform p {
+	font-family: 'Poppins';
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.social-m {
+	width: 100%;
+	display: flex;
+	bottom: 3rem;
+	position: relative;
+	top: 3rem;
+	padding-left: 5%;
+}
+
+.social-m img {
+	width: 12%;
+	margin-right: 8%;
+	cursor: pointer;
+}
+
+.btn1 {
+	width: 11rem;
+	height: 3rem;
+	background-color: black;
+	color: antiquewhite;
+	position: relative;
+	border-radius: 8px;
+	text-align: center;
+	left: 45%;
+	top: 7rem;
+	font-family: 'Poppins';
+	font-size: 20px;
+	font-weight: 300;
+	transition: 1s;
+}
+
+.btn1:hover {
+	background-color: #fff;
+	color: black;
+	cursor: pointer;
+}
+
+@media (max-width: 767px) {
+	.partners-section {
+		margin-top: 3rem;
+	}
+
+	.part-inform h2 {
+		font-family: 'Crimson Text';
+		font-size: 24px;
+	}
+
+	.social-m {
+		display: block;
+		text-align: justify;
+		position: relative;
+		left: 10%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.social-m img {
+		display: block;
+		width: auto;
+		margin-bottom: 2rem;
+	}
+
+	.btn1 {
+		left: 20%;
+		position: relative;
+		top: 3rem;
+	}
+}
